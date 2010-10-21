@@ -129,6 +129,8 @@ languages =
     name: 'javascript', symbol: '//'
   '.rb':
     name: 'ruby', symbol: '#'
+  '.php':
+    name: 'php', symbol: '//'
 
 # Build out the appropriate matchers and delimiters for each language.
 for ext, l of languages
